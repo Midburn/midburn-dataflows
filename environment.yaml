@@ -1,0 +1,9 @@
+name: midburn-dataflows
+channels:
+  - defaults
+dependencies:
+  - python>=3.7
+  - pip:
+    - dataflows>=0.0.37
+    - dataflows-shell>=0.0.8
+    - jupyterlab
